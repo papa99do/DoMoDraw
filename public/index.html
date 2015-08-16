@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DomoDraw</title>
+    <link rel="stylesheet" href="/css/main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <textarea id="description" rows="8" cols="40">'A' is a 'B', 'B' is a 'C', 'A' uses 'C'</textarea>
+    <input type="button" id="parse" name="parse" value="Parse">
+    <div id="result"></div>
+    <svg></svg>
+
+    <script src="bower_components/lodash/lodash.js" charset="utf-8"></script>
+    <script src="bower_components/d3/d3.js" charset="utf-8"></script>
+    <script src="bower_components/graphlib/dist/graphlib.core.js" charset="utf-8"></script>
+    <script src="bower_components/dagre/dist/dagre.core.js" charset="utf-8"></script>
+    <script src="bower_components/dagre-d3/dist/dagre-d3.core.js" charset="utf-8"></script>
+    <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+
+    <script src="js/model.js" charset="utf-8"></script>
+    <script src="js/parser.js" charset="utf-8"></script>
+    <script src="js/render.js" charset="utf-8"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+
+  </body>
+</html>

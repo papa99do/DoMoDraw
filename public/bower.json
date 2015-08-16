@@ -1,0 +1,20 @@
+{
+  "name": "DoMoDraw",
+  "version": "0.0.1",
+  "description": "A tool to convert texts describing a domain model to a domain model diagram",
+  "authors": [
+    "Yihan Zhao <yihanzhao@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "dagre-d3": "~0.4.10"
+  }
+}
